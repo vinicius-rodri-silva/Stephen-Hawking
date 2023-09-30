@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stephen Hawking - Contate a gente</title>
+        <meta charset="utf-8">
+        <link rel ="icon" type="image.jpg" href="imgs/sthephenicon.png" >
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">       
+        <script language = "javascript" type = "text/javascript">
+            function validar() {
+	        var nome = form1.nome.value
+	        var email = form1.email.value
+            var fone = form1.fone.value
+	        var cidade = form1.cidade.value
+	   
+	        if (nome == "") {
+		       alert (' Preencha o campo com seu nome. ')
+		       form1.nome.focus()
+		       return false;
+	        }
+	        if (email == "") {
+		       alert (' Preencha o campo com seu email. ')
+		       form1.nome.focus()
+		       return false;
+	        }
+            if (fone == ""){
+               alert (' Preencha o campo com seu telefone. ')
+		       form1.nome.focus()
+		       return false;
+            }
+	   
+	   
+	   }
+	   
+        </script>
+    </head>
+    <body>
+             <nav id="menu">
+
+            <ul>
+                <li id="name"><p>Stephen<br>Hawking</p></li>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="historia.html">História</a></li>
+                <li> <a href="feitos.html">Pesquisas</a></li>
+                <li> <a href="galeria.html">Galeria</a></li>
+                <li> <a href="contato.html">Contato</a></li>
+           </ul>
+        </nav>
+        
+       
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container-contato">
+            <h1 class="center" >Contato</h1>
+            <br>
+            <div class="contato">
+                <form name = "form1" action = "dados.html" method = "post">
+                    <label>
+                        Nome <span class="ponto">*</span>
+                    </label>
+                    
+                    <input type = "text" name = "nome" placeholder="Insira seu nome" ><br><br>
+                    Email <span class="ponto">*</span> 
+                    <input type = "text" name = "email" placeholder="Insira seu email"><br><br>
+                    Telefone <span class="ponto">*</span> 
+                    <input type = "text" name = "fone" placeholder="Insira seu telefone"><br><br>
+                    Cidade
+                    <select name = "cidade">
+                        <option>  </option>
+                        <option> Nova Odessa </option> 
+                        <option> Americana </option>
+                        <option> Santa Barbara d'Oeste </option>
+                        <option> Sumaré </option>
+                        <option> Campinas </option>
+                    </select>
+                <br><br>
+                <textarea cols = "50" name = "texto" rows = "25" placeholder="  Deixe sua mensagem" name = "comentario"></textarea>
+                <br><br>
+                <input type = "submit" onclick = "return validar()" value = "Enviar">
+                <input type = "reset" name = "limpa" value = "Limpar">
+            </form>
+            </div>
+           
+                
+            <br>
+        </div>  
+        <br>
+        <br>  
+        <div class="end">
+            <h5 class="footerind">Vinícius Silva 2023 - &copyTodos os direitos reservados</h5>
+        </div> 
+    </body>
+</html>

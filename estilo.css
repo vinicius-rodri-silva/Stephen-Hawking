@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body{
+        background:#D4DDF7;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        font-family: "arial";
+        text-align: justify ;
+        }
+        body.index{
+          background-image: url("imgs/buneg6.png");
+          background-repeat: no-repeat;
+          background-size: cover;          
+        }
+        .academic{
+          background-color: rgb(0, 0, 0);
+          border-radius: 10px;
+        }
+        
+        .center{
+          text-align: center;
+        }
+        .lefth{
+          margin-left:26%;
+        }
+        p{
+          margin-left: 17px;
+          margin-right: 10px;
+          margin-top: 3px;
+          text-align: justify ;
+        }
+        #menu{
+          margin-left: 10%;
+          margin-right: auto;
+          width: 80%;
+          height: 60px;
+          background: #5D6FA6;/*background: #ffd000;*/
+          color: white;
+          position: fixed;
+          border-radius: 3px 3px 20px 20px;
+        }
+        .curi{
+          margin-left: 20px;
+        }
+        .galeria{
+          margin-left: 125px;
+          margin-top: 50px;
+          justify-content: center;
+          align-items: center;
+          display: grid;
+          grid-template-rows: repeat(3, 1fr);
+          grid-gap: 10px;
+          max-width: 600px;
+        }
+        .galeria-coluna{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+        }
+
+        .fotos{
+           float: left;
+          height: 150px;
+          width: 150px;
+          margin-left: 50px;
+          margin-bottom: 50px ;
+          width: 100%;
+          border-radius: 15px;
+          transition: transform 0.3s;
+        }
+
+        .fotos:hover{
+          transform: scale(1.5);
+
+        }
+        
+        .imagempqn
+        {
+          margin-right: 10px;
+          margin-left: 10px;
+          height: 100px;
+        }
+        #menu li{
+          display:block;
+          margin-left: 7%;
+          margin-right: 8%;    
+        }
+        #menu a{
+             text-align: center;
+             float:left;
+             text-decoration:none;
+             color: rgb(0, 0, 0);/*color: rgb(16, 13, 206);*/
+             text-transform: uppercase;
+             line-height: 60px;
+             height: 60px;
+             padding: 0px 20px; 
+             font-size: 110%;
+             font-family: 'Dosis', sans-serif;
+             border-radius: 12px;
+            }
+        #name {
+          float: left;
+          color:black;
+          line-height: 30px;
+          height: 60px;
+          font-size: 170%;
+          font-family: 'Bebas Neue', sans-serif;
+          }
+           #menu a:hover{ 
+           background: #47547e9a;
+           transition: 0.7s;
+           font-size: 120%;
+           }
+           
+        .container {
+           overflow: auto; /* Limpa o fluxo para que o container abrace a imagem e o texto */
+           border-radius: 15px;
+           border-color: black;
+           background-color: #e1e7f8 ;
+           margin-left: 10px;
+           margin-right: 10px;
+           margin-top: 10px;
+          }
+        .container-galeria {
+          overflow: auto; 
+          border-radius: 15px;
+          border-color: black;
+          background-color: #e1e7f8 ;
+          margin-left: 100px;
+          margin-right: 100px;
+          margin-top: 10px;
+          }
+          
+        .imagem {
+            float: right;
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            width: 420px;
+          }
+          .remo{
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            width: 420px;
+          }
+          .imagemdoen{
+            float: right;
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            width: 340px;
+          }
+        
+          .imagemfacul {
+            float: right;
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            width: 200px;
+          }
+           .cat{
+            background-color: #5d6fa6c3;/*#5D6FA6*/
+           }
+           #inc{
+            text-shadow: 2px 2px black;
+            margin-left: 130px;
+            font-size: 510%;
+            color: white;
+            margin-bottom: auto;
+           }
+           #inc span{
+            font-size: small;
+           }
+           .ancor{
+            background-size: 25px;
+            background-color: white;
+            float: right;
+            height: 25px;
+           }   
+           .end{
+            background-color: rgba(0, 0, 0, 0.761);
+           }
+           #endindex{
+            margin-top: 4.5vh;
+           }
+           .footer{
+            text-align: center;
+            width: 100%;
+            height: 25px;
+            color: white;
+            line-height: 25px;
+           }
+           .footerind{
+            background-color: rgba(0, 0, 0, 0.761);
+            text-align: center;
+            width: 100%;
+            height: 25px;
+            color: white;
+            line-height: 25px;
+            padding: 0px;
+            margin: 0px;
+            position: absolute;
+            bottom: 0px;
+           }
+           .footerindaca{
+            background-color: rgba(0, 0, 0, 0.761);
+            text-align: center;
+            width: 100%;
+            height: 25px;
+            color: white;
+            line-height: 25px;
+            padding: 0px;
+            margin-bottom: 25px;
+            position: absolute;
+            bottom: 0px;
+           }
+           textarea{
+            resize: none;
+            border-radius: 5px;
+           }
+           .container-contato{
+            overflow: auto; /* Limpa o fluxo para que o container abrace a imagem e o texto */
+            border-radius: 15px;
+            border-color: black;
+            background-color: #e1e7f8 ;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 10px;
+           }
+           .contato{
+            margin: 0px;
+           }
+           .contato form{
+            text-align: center;
+           }
+           input{
+            margin-right: 50px;
+            margin-left: 50px;
+            width: 20%;
+           }
+           select{
+            margin-right: 50px;
+            margin-left: 50px;
+            width: 20%;
+           }
+           .right{
+            text-align: left;
+           }
+           .ponto {
+            color: red;
+           }
+
